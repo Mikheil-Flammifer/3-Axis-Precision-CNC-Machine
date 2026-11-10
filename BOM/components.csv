@@ -1,0 +1,57 @@
+﻿Item ID,Subsystem,Component,Specification / Variant,Quantity (each),Axis / Location,Status,Manufacturer,Manufacturer Part Number,Datasheet / URL,Engineering Notes
+FRM-EXT-001,Mechanical / Base frame,2040 aluminum extrusion,2040 profile; frame members,3,Base frame,Planned,Not specified,Not specified,,User states base footprint is 400 x 300 mm; cut lengths and extrusion orientation still need to be assigned.
+FRM-CB-001,Mechanical / Base frame,C-beam aluminum extrusion,C-beam profile,2,Base frame / location TBD,Planned,Not specified,Not specified,,Exact length and orientation not specified.
+FRM-BRK-001,Mechanical / Base frame,L-bracket,M5; 5 mm thick; 206-50-34,12,Base frame,Planned,Not specified,206-50-34,,Original parts list describes 12 standard L-brackets. User later describes frame L-brackets as 8 mm thick; confirm whether these are the same brackets or a revised selection.
+FRM-BRK-002,Mechanical / Base frame,L-bracket,406-40-35,8,Base frame / location TBD,Planned,Not specified,406-40-35,,Thickness/material not specified in source list.
+FRM-BRK-003,Mechanical / Base frame,Flat bracket,M5,12,Base frame / location TBD,Planned,Not specified,Not specified,,Dimensions and thickness not specified.
+FRM-TN-M5-001,Mechanical / Fasteners,M5 T-nut,Pack of 50,3,2040/C-beam connections,Planned,Not specified,Not specified,,BOM quantity represented as 150 pieces (3 packs x 50).
+FRM-TN-M3-001,Mechanical / Fasteners,M3 T-nut,Pack of 50,2,Location TBD,Planned,Not specified,Not specified,,BOM quantity represented as 100 pieces (2 packs x 50).
+FRM-BLT-M5-016,Mechanical / Fasteners,M5 bolt,16 mm; pack of 20,20,Frame assembly,Planned,Not specified,Not specified,,1 pack x 20 pieces.
+FRM-BLT-M5-010,Mechanical / Fasteners,M5 bolt,10 mm; 3 packs x 20,60,Frame assembly,Planned,Not specified,Not specified,,BOM quantity represented as 60 pieces.
+FRM-BLT-M5-008,Mechanical / Fasteners,M5 bolt,8 mm; 4 packs x 20,80,Frame assembly,Planned,Not specified,Not specified,,BOM quantity represented as 80 pieces.
+FRM-BLT-M4-020,Mechanical / Fasteners,M4 bolt,20 mm; pack of 20,20,Location TBD,Planned,Not specified,Not specified,,1 pack x 20 pieces.
+FRM-BLT-M4-008,Mechanical / Fasteners,M4 bolt,8 mm; pack of 50,50,Location TBD,Planned,Not specified,Not specified,,1 pack x 50 pieces.
+FRM-BLT-M3-010,Mechanical / Fasteners,M3 bolt,10 mm; pack of 50,50,Location TBD,Planned,Not specified,Not specified,,1 pack x 50 pieces.
+FRM-BLT-M3-008,Mechanical / Fasteners,M3 bolt,8 mm; 2 packs x 50,100,Location TBD,Planned,Not specified,Not specified,,BOM quantity represented as 100 pieces.
+FRM-BLT-M3-006,Mechanical / Fasteners,M3 bolt,6 mm; 2 packs x 50,100,Location TBD,Planned,Not specified,Not specified,,BOM quantity represented as 100 pieces.
+FRM-NUT-M5-001,Mechanical / Fasteners,Washer nut,M5; pack of 50,50,Location TBD,Planned,Not specified,Not specified,,1 pack x 50 pieces.
+FRM-NUT-M3-001,Mechanical / Fasteners,Washer nut,M3; pack of 50,50,Location TBD,Planned,Not specified,Not specified,,1 pack x 50 pieces.
+FRM-FT-001,Mechanical / Base frame,Rubber leveling foot,Rubber foot / leveling,4,Base frame corners,Planned,Not specified,Not specified,,Confirm thread/attachment type and load rating.
+MOT-BS-001,Mechanical / Linear motion,SFU1204 ball screw,500 mm,2,Y-left and Y-right (provisional),Planned,Not specified,SFU1204,,Provisional assignment based on user's dual-Y layout; verify usable travel and overall screw length.
+MOT-BS-002,Mechanical / Linear motion,SFU1204 ball screw,400 mm,1,X axis (provisional),Planned,Not specified,SFU1204,,Provisional assignment; verify usable travel and overall screw length.
+MOT-BN-001,Mechanical / Linear motion,SFU1204 ball nut,For SFU1204,3,One per ball screw,Planned,Not specified,Not specified,,Exact nut type/flange dimensions not specified.
+MOT-NB-001,Mechanical / Linear motion,DSG12H ball nut bracket,DSG12H,3,One per ball screw,Planned,Not specified,DSG12H,,Confirm compatibility with the selected SFU1204 nut.
+MOT-BK-001,Mechanical / Linear motion,BK10 fixed bearing support,BK10,4,Ball screw supports,Planned,Not specified,BK10,,Four listed; confirm whether four complete supports are intended.
+MOT-BF-001,Mechanical / Linear motion,BF10 floating bearing support,BF10,4,Ball screw supports,Planned,Not specified,BF10,,Four listed; confirm whether four complete supports are intended.
+MOT-MNT-001,Mechanical / Motor mounting,NEMA 17 motor mount bracket,Size 42,4,X + dual Y + Z (provisional),Planned,Not specified,42 mm / NEMA 17,,Quantity 4 is inferred from the user's stated four-motor architecture; original list says 4 brackets.
+MOT-RAIL-001,Mechanical / Linear motion,MGN12 linear rail,400 mm,2,Axis assignment TBD,Planned,Not specified,MGN12,,Confirm which axis each pair serves.
+MOT-RAIL-002,Mechanical / Linear motion,MGN12 linear rail,300 mm,2,Axis assignment TBD,Planned,Not specified,MGN12,,Confirm which axis each pair serves.
+MOT-RAIL-003,Mechanical / Linear motion,MGN12 linear rail,200 mm,2,Axis assignment TBD,Planned,Not specified,MGN12,,Confirm which axis each pair serves.
+MOT-CAR-001,Mechanical / Linear motion,MGN12H carriage block,MGN12H,12,Linear rails,Planned,Not specified,MGN12H,,Confirm rail/block compatibility and distribution by axis.
+MOT-PLT-001,Mechanical / Plates,Aluminum carriage plate,150 x 150 x 8 mm,3,Carriages / axis assignment TBD,Planned,Not specified,Not specified,,Material alloy and hole pattern not specified.
+MOT-PLT-002,Mechanical / Plates,Aluminum carriage plate,150 x 150 x 6 mm,1,Carriage / axis assignment TBD,Planned,Not specified,Not specified,,Material alloy and hole pattern not specified.
+MOT-CPL-001,Mechanical / Couplings,Flexible shaft coupling,Bore sizes not specified,6,Stepper-to-screw connections / TBD,Planned,Not specified,Not specified,,Four motors are planned; six couplings are listed. Verify required quantity and bore sizes.
+MOT-STM-001,Mechanical / Motors,Stepper motor,NEMA 17; 42HS6315A4,1,X axis (quantity assumed from singular entry),Planned,Not specified,42HS6315A4,,"Confirm quantity, rated current, holding torque, inductance and shaft dimensions."
+MOT-STM-002,Mechanical / Motors,Stepper motor,NEMA 17; model not specified,1,Z axis (quantity assumed from singular entry),Planned,Not specified,Not specified,,Original list identifies one NEMA17 for Z; confirm exact model and electrical ratings.
+MOT-STM-003,Mechanical / Motors,Stepper motor,NEMA 17; model not specified,2,Y-left and Y-right,Planned,Not specified,Not specified,,Quantity 2 follows user's later dual-Y architecture; exact motor model not supplied.
+Z-MECH-001,Mechanical / Z axis,T8 lead screw,300 mm,1,Z axis,Planned,Not specified,T8,,Confirm lead/pitch and compatibility with the selected anti-backlash nut.
+Z-MECH-002,Mechanical / Z axis,Anti-backlash nut,For T8 lead screw (assumed),3,Z axis / spares TBD,Planned,Not specified,Not specified,,Original list says 3; confirm whether all three are intended for this machine.
+SPN-001,Mechanical / Spindle,Spindle,500 W,1,Z-axis spindle mount,Planned,Not specified,Not specified,,"Exact voltage, current, RPM range, cooling method and control interface required."
+SPN-COL-001,Mechanical / Spindle,ER11 collet,"3 mm, 4 mm, 6 mm",1,Spindle,Planned,Not specified,ER11,,Listed as one ER11 collet set; confirm included sizes and quantity per size.
+TOOL-EM-001,Tooling,Carbide flat end mill,6 mm; 2 flute,3,Spindle tooling,Planned,Not specified,Not specified,,Confirm shank diameter and cutting length.
+TOOL-EM-002,Tooling,Carbide flat end mill,4 mm; 2 flute,3,Spindle tooling,Planned,Not specified,Not specified,,"Source text says '4dmm'; interpreted as 4 mm, please verify."
+TOOL-BN-001,Tooling,Ball nose cutter,3 mm,5,Spindle tooling,Planned,Not specified,Not specified,,Confirm whether 3 mm refers to cutting diameter or shank diameter.
+TOOL-BN-002,Tooling,Ball nose cutter,2 mm,5,Spindle tooling,Planned,Not specified,Not specified,,Confirm whether 2 mm refers to cutting diameter or shank diameter.
+TOOL-CLP-001,Workholding,Clamping board (source says 'Clapping'),Specification not provided,1,Machine bed / workholding,Planned,Not specified,Not specified,,Name and specification need confirmation; do not order until clarified.
+ELE-CTRL-001,Electronics / Controller,MKS DLC32 CNC MAX,Controller board,1,Control enclosure,Planned,Makerbase (listed controller family),Exact revision TBD,,"Record board revision, firmware version and official pinout before wiring."
+ELE-FAN-001,Electronics / Cooling,24 V fan,MKS 24V fan,1,Controller enclosure,Planned,Not specified,Not specified,,Confirm voltage/current and mounting size.
+ELE-DRV-001,Electronics / Drivers,TMC2209 stepper driver module,TMC2209,6,Controller / spares,Planned,Not specified,TMC2209,,"Verify board socket count and driver-module compatibility; four motor channels are required for X, Y-left, Y-right and Z."
+ELE-LS-001,Electronics / Sensors,Limit switch,Endstop,8,Axis homing / travel limits,Planned,Not specified,Not specified,,Assign each switch to an axis and function; verify controller input availability.
+ELE-CHAIN-001,Electronics / Wiring,Cable drag chain,2 m,2,Moving cable routes,Planned,Not specified,Not specified,,Confirm chain dimensions and bend radius.
+ELE-SW-001,Electronics / Controls,Changeover button/switch,Specification not provided,2,Operator panel / TBD,Planned,Not specified,Not specified,,"Clarify whether these are selector switches, pushbuttons or another device."
+ELE-ESTOP-001,Electronics / Safety,Emergency-stop button,Specification not provided,1,Operator panel,Planned,Not specified,Not specified,,Select a latching safety-rated device and design a hardware power-isolation circuit.
+PWR-PSU-001,Electronics / Power,Power supply,24 V; current/power not specified,1,Motor/controller power (to verify),Planned,Not specified,Not specified,,"Confirm current capacity against motor-driver settings, controller and auxiliaries."
+PWR-PSU-002,Electronics / Power,Power supply,48 V; current/power not specified,1,Spindle (provisional),Planned,Not specified,Not specified,,Verify spindle nameplate/specification and required supply before purchase or connection.
+ELE-TOOL-001,Electronics / Wiring,Ferrule crimping kit,Kit,1,Electrical assembly,Planned,Not specified,Not specified,,Check ferrule sizes against selected wire gauges and terminals.
+ELE-WIRE-001,Electronics / Wiring,Wire roll,Black; length/gauge not specified,1,Electrical wiring,Planned,Not specified,Not specified,,"Specify conductor cross-section, insulation rating and length."
+ELE-WIRE-002,Electronics / Wiring,Wire roll,Red; length/gauge not specified,1,Electrical wiring,Planned,Not specified,Not specified,,"Specify conductor cross-section, insulation rating and length."
